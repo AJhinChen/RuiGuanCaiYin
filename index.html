@@ -10,6 +10,11 @@
 
   <script src="js/modernizr.js"></script>
   <link type="text/css" rel="stylesheet" href="css/pc_index.css">
+  <link rel="shortcut icon" href="images/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   <style>
     .m-header .logo {
       background: url(images/new-logo.png) 0 0 no-repeat !important;
@@ -26,10 +31,10 @@
       <a class="logo"></a>
       <span class="name">瑞冠彩印</span>
       <ul class="links clearfix">
-        <li><a class="index">企业介绍</a></li>
-        <li><a href="http://3g.163.com/ntes/special/00340QR4/app.html#download">技术设备</a></li>
-        <li><a href="http://3g.163.com/ntes/special/00340QR4/app.html#aboutus">产品案例</a></li>
-        <li><a href="http://3g.163.com/ntes/special/00340QR4/app.html#contact">关于我们</a></li>
+        <li><a data-tab="index" data-title="企业介绍" class="index active">企业介绍<span class="border"></span></a></li>
+        <li><a data-tab="download" data-title="技术设备" href="#download">技术设备<span class="border"></span></a></li>
+        <li><a data-tab="aboutus" data-title="产品案例" href="#aboutus">产品案例<span class="border"></span></a></li>
+        <li><a data-tab="contact" data-title="关于我们" href="#contact">关于我们<span class="border"></span></a></li>
       </ul>
     </div>
   </div>
@@ -49,69 +54,45 @@
     <div class="feature" style="margin-top: -32.8611px;">
       <ul>
         <li class="feature-1 clearfix active">
-          <div class="left"><div class="inner"></div></div>
-          <div class="right">
-            <p>新闻≠复制粘贴</p>
+          <div class="left">
+            <p>印前设计</p>
             <p>我们试图距离真相 更近一步</p>
             <div class="text">
-              <div>有趣，尖锐，独家，深度，在这里看到新闻另一面</div>
-              <div>同样的新闻，不一样的解读方式</div>
-              <div>可以诙谐幽默，也可以尖锐独到，更可以用数据说话彰显权威</div>
-              <div>网易精品原创栏目，总有一种解读适合你</div>
-            </div>
+              <div>提出一个想法或者需求</div>
+              <div>解决包装设计方面的难题</div>
+              <div>其他的交给我们来完成</div>
+              <div>东莞市瑞冠彩印，不一样!</div>
+            </div></div>
+          <div class="right">
+            <div class="inner"></div>
           </div>
         </li>
         <li class="feature-2 clearfix active">
-          <div class="left"><div class="inner"></div></div>
-          <div class="right">
-            <p>网易跟贴大楼 深藏民间高手</p>
+          <div class="left">
+            <p>专业印刷 深藏民间高手</p>
             <div class="text">
               <div>有人来这里看新闻，有人来这里看『大神』</div>
               <div>盖楼作诗，槽点犀利，来网易跟贴，写出你的态度</div>
               <div>我们激发每个人思考，态度就在你身上</div>
-            </div>
+            </div></div>
+          <div class="right">
+            <div class="inner"></div>
           </div>
         </li>
         <li class="feature-3 clearfix active">
-          <div class="left"><div class="inner"></div></div>
-          <div class="right">
-            <p>定制化阅读  更懂你的新闻资讯APP</p>
+          <div class="left">
+            <p>后道工艺  更懂你的心</p>
             <div class="text">
-              <div>智能推送，给你真正感兴趣的资讯。海量订阅源，捍卫你自主选择的权力</div>
-              <div>拒绝千篇一律，给每个读者，更适合的资讯</div>
+              <div>过胶、啤盒、裱坑、皱纹、彩葱UV、满版UV、局部UV</div>
+              <div>精美手工礼品盒、粘盒等全套服务</div>
             </div>
+          </div>
+          <div class="right">
+            <div class="inner"></div>
           </div>
         </li>
       </ul>
     </div>
-    <!--<div class="carousel" style="display: none;">-->
-      <!--<div class="inner">-->
-        <!--<div class="mask">-->
-          <!--<div class="words-wrap">-->
-            <!--<span class="icon icon-1"></span>-->
-            <!--<span class="words">存 善 心 ， 结 善 缘 。</span>-->
-            <!--<span class="icon icon-2"></span>-->
-          <!--</div>-->
-          <!--<div class="name-wrap"><div class="name">孙俪</div></div>-->
-        <!--</div>-->
-        <!--<div class="gallery" data-jcarousel="true">-->
-          <!--<ul class="clearfix" style="width: 9600px; transition-duration: 0s; transition-timing-function: ease; transition-property: all; transform: translate3d(0px, 0px, 0px);">-->
-            <!--<li data-name="孙俪" data-words="存 善 心 ， 结 善 缘 。"><img src="images/carousel-2.jpg"></li>-->
-            <!--<li data-name="阿米尔汗" data-words="If you love something, set it free."><img src="images/carousel-1.jpg"></li>-->
-            <!--<li data-name="郎朗" data-words="音 乐 让 世 界 更 平 等 。"><img src="images/carousel-3.jpg"></li>-->
-            <!--<li data-name="黄渤" data-words="让 环 保 从 名 词 变 成 动 词 。"><img src="images/carousel-4.jpg"></li>-->
-            <!--<li data-name="巴乔" data-words="我 的 人 生 态 度 是 传 递 快 乐。"><img src="images/carousel-5.jpg"></li>-->
-            <!--<li data-name="朴树" data-words="从 容 自 由 ， 像 棵 树 一 样 活 着 。"><img src="images/carousel-6.jpg"></li>-->
-            <!--<li data-name="章子怡" data-words="不 止 爱 情 ， 生 活 值 得 冒 险 。"><img src="images/carousel-7.jpg"></li>-->
-            <!--<li data-name="林丹" data-words="没 有 什 么 比 过 程 更 重 要 。"><img src="images/carousel-8.jpg"></li>-->
-          <!--</ul>-->
-        <!--</div>-->
-        <!--<div class="indicator" data-jcarouselpagination="true"><a href="#2" class="active"></a><a href="#3"></a><a href="#4"></a><a href="#5"></a><a href="#6"></a><a href="#7"></a><a href="#8"></a><a href="#9"></a></div>-->
-        <!--<div class="prev" data-jcarouselcontrol="true"></div>-->
-        <!--<div class="next" data-jcarouselcontrol="true"></div>-->
-      <!--</div>-->
-    <!--</div>-->
-    <!--<div class="awards" style="margin-top: 1206px;"><div class="wrap"><div class="inner"></div></div></div>-->
     <div class="brands"></div>
   </div>
   <div class="m-footer">
@@ -138,7 +119,7 @@
       </div>
       <div class="qr"></div>
     </div>
-    <div class="copyright"><span class="icon">©</span> 1997-2017 网易公司版权所有</div>
+    <div class="copyright"><span class="icon">©</span> 2016-2017 东莞市瑞冠彩印包装有限公司版权所有</div>
   </div>
 </div>
 <script src="http://img1.cache.netease.com/utf8/pc/lib/jquery.min.js"></script>
