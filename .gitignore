@@ -1,7 +1,5 @@
-﻿
-.idea/modules.xml
-.idea/RuiGuanCaiYin.iml
-.idea/vcs.xml
-.idea/workspace.xml
+test/demo
+test/main
+.idea
 1.HTML
 2.html
