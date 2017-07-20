@@ -735,7 +735,7 @@ figure.effect-ruby:hover img {
 	.tm-social-icons-container { margin-bottom: 20px; }
 
 	.cd-full-width .container-fluid {
-		margin-top: 0;
+		margin-top: 280px;
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -759,7 +759,7 @@ figure.effect-ruby:hover img {
 
 	.tm-img-gallery-container,
 	.tm-img-gallery-container-2,
-	.tm-img-gallery-container-3 { max-width: 1360px; }
+	.tm-img-gallery-container-3 { max-width: 1170px; }
 
 	.grid-item { width: 25%; }
 	.gallery-two .grid-item { width: 33.3333%; }
@@ -781,12 +781,12 @@ figure.effect-ruby:hover img {
 		padding-right: 20px;
 	}
 	.cd-full-width .container-fluid.tm-page-width {
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 	.tm-page-width {
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 
 	.tm-3-col-container {
@@ -836,8 +836,8 @@ figure.effect-ruby:hover img {
 
 @media only screen and (min-width: 1340px) {
 	.cd-full-width .container-fluid.tm-page-width { 
-		padding-left: 0; 
-		padding-right: 0;
+		padding-left: 25px;
+		padding-right: 25px;
 	}	
 }
 
