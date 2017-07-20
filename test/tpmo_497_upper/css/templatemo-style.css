@@ -425,6 +425,11 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	line-height: 37px
 }
 
+.cd-hero-slider div.feature-1 {
+	background: url('../img/m-design.jpg') no-repeat;
+	height: 100%
+}
+
 #google-map {
     height: 430px;
     width: 100%;    
